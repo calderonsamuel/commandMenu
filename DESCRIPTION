@@ -1,9 +1,9 @@
 Package: commandMenu
-Title: What the Package Does (One Line, Title Case)
+Title: Utilities to add command menus for text inputs
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Samuel", "Calderon", , "samuel.calderon@uarm.pe", role = c("aut", "cre"))
+Description: Functionality to add highly customizable command menus to text based inputs in shiny apps.
 License: MIT + file LICENSE
 Suggests: 
     testthat (>= 3.0.0)
