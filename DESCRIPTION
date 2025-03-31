@@ -11,5 +11,5 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-URL: https://github.com/calderonsamuel/commandMenu
+URL: https://github.com/calderonsamuel/commandMenu, https://calderonsamuel.github.io/commandMenu/
 BugReports: https://github.com/calderonsamuel/commandMenu/issues
