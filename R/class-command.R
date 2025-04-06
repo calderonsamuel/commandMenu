@@ -7,8 +7,8 @@ command <- S7::new_class(
   )
 )
 
-commandMenu <- S7::new_class(
-  name = "commandMenu",
+command_menu <- S7::new_class(
+  name = "command_menu",
   properties = list(
     commands = S7::new_property(
       class = S7::class_list,
