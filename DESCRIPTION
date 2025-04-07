@@ -6,6 +6,7 @@ Authors@R:
 Description: Functionality to add highly customizable command menus to text based inputs in shiny apps.
 License: MIT + file LICENSE
 Suggests: 
+    shiny,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
