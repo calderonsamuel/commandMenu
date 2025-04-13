@@ -27,4 +27,8 @@ command_menu <- S7::new_class(
 
 class_shiny.tag <- S7::new_S3_class("shiny.tag")
 
-add_command_menu <- S7::new_generic("add_command_menu", "x")
+add_command_menu <- S7::new_generic("add_command_menu", c("x", "command_menu"))
+
+S7::method(add_command_menu, list(class_shiny.tag, command_menu)) <- function(x, command_menu) {
+  check_input(x)
+}
