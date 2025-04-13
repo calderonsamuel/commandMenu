@@ -1,6 +1,6 @@
 check_input <- S7::new_generic("check_input", "x")
 
-S7::method(check_input, S7::new_S3_class("shiny.tag")) <- function(x, command_menu) {
+S7::method(check_input, class_shiny.tag) <- function(x, command_menu) {
   tq <- htmltools::tagQuery(x)
   is_textarea_input <- tq$children("textarea.shiny-input-textarea")$length() == 1L
   if (is_textarea_input) return()

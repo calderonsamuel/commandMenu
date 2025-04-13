@@ -25,4 +25,6 @@ command_menu <- S7::new_class(
   )
 )
 
+class_shiny.tag <- S7::new_S3_class("shiny.tag")
+
 add_command_menu <- S7::new_generic("add_command_menu", "x")
